@@ -16,7 +16,7 @@ function Nav() {
             <div className="Nav_del" >
                 <ul className="nav_ul">
                     <li className="nav-item"><a className="px-3 py-2 flex items-center text-xs  font-bold leading-snug text-black hover:opacity-75" href="/about">
-                        <span class="ml-2">Home</span></a>
+                        <span className="ml-2">Home</span></a>
                     </li>
                     <li className="nav-item"><a className="px-3 py-2 flex items-center text-xs  font-bold leading-snug text-black hover:opacity-75" href="/services"><span className="ml-2">Services</span></a></li>
                     <li className="nav-item"><a className="px-3 py-2 flex items-center text-xs  font-bold leading-snug text-black hover:opacity-75" href="/products"><span className="ml-2">Products</span></a></li>

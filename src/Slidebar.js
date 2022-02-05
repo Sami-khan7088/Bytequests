@@ -17,8 +17,8 @@ function prev() {
   {
       SlidebarData.map((curr,index)=>{
           return(
-              <div className={index===current ? "active":"slide"}>
-            <img src={curr.image} alt='' className='main_image'/>
+              <div className={index===current ? "active":"slide"} key={index}>
+            <img src={curr.image}  alt='' className='main_image'/>
             </div>
           )
       })
